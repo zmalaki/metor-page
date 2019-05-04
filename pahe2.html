@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>page2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <style>
+      .d-flex{
+         
+          justify-content: center;
+      }
+       h5 a{
+          color:#6C757D;
+          
+
+      }
+      h5 a:hover{ 
+    text-decoration-line: underline;
+          color: red;
+      }
+      .hov a{
+        color:rgb(163, 189, 194);
+        font-size:20px;
+        padding-top: 7px;
+      }
+      .hov a:hover{
+          text-decoration-line: none;
+          color: white;
+
+      }
+      #scrool{
+          background-color: #290BA0;
+          margin-top: 30px;
+          height: 75px;
+      }
+      #background2{
+   
+ position: relative;
+   
+   }
+   #show{
+       position: absolute;
+   }
+   .color{
+       background-color:#E535AB;
+      
+   }
+   .color1{
+       background-color:#E535AB;
+       width: 200px;
+       height: 50px;
+       color:beige;
+      font-weight: bold;
+      margin: 30px;
+      
+   }
+   button{
+    border: 2px solid #E535AB;
+    border-radius: 30px;
+   }
+   .btne{
+    border: 2px solid white;
+    border-radius: 30px;
+   }
+   .fixed-bottom{
+       background-color: #E535AB;
+       height: 50px;
+       padding: 10px;
+   }
+  </style>
+  <div>
+  <h5 class="d-flex text-secondary">MISSED GRAPHQL SUMMIT'S ANNOUNCEMENTS?<a href="#"> WATCH THE KEYNOTE</a></h5>
+  <div id="scrool" class=" clearfix fixed-top " >
+            
+            
+        <nav   class=" row  mt-3  float-left"  >
+            <ul class="navbar-nav flex-row hov  " >
+                <li class="  pl-5 mt-0" ><img src="logo-white-71d4c6230c1101080207f89be9f73925.pngpage2.png" ;width="80px" height="50px;"></li>
+                <li class="  pl-4 text-dark "><a href="#">Why GraphQL</a></li>
+                <li class=" pl-4 text-dark"><a href="#">Platform</a></li>
+                <li class="  pl-4 text-dark"><a href="#">Plans</a></li>
+                <li class="pl-4 text-dark"><a href="#">Docs</a></li>
+                <li class="  pl-4 text-dark"><a href="#">Suport</a></li>
+                
+            </ul>
+        </nav>
+        <nav   class="row mt-3 mr-5 pr-5 float-right "  >
+            <ul class="navbar-nav flex-row  " >
+                    <li class="  pl-4 text-dark"><a href="#">login</a></li>
+                    <li class="  pl-2 text-dark"><button type="button"  class="btne ">contact sales</button></li>
+                    <li class="  pl-2 text-dark"><button type="button" class=" color">contact sales</button></li>
+            </ul>
+        </nav>
+         
+</div>
+<div id="background2" class=" row ml-0 justify-content-center mt-5" >
+    <img id="background2" src="careers-hero-822bbd34486dd274e915003a9c0f28b3.pngpage2.png" width="100%" height="500px;">
+             
+        <nav id="show" class="navbar  d-flex justify-content-center pt-5"> <ul class="navbar-nav p-5">
+                <li class="nav-item p-1 text-center text-white ">
+            <h1 class="font-weight-bold" >Helping the world build
+                <br>software better and faster</br></h1></li>
+                <li class="text-center"><button type="button" class=" color1">contact sales</button></li>
+            </ul></nav></div>
+       
+        </div>
+        <div class="  d-flex justify-content-center mb-5">
+            <p class="text-center">We're on a mission to improve how people develop software.</br> Our company is focused on making application development easier, better,</br> and accessible to more people. We are a talented, tight-knit team spread across</br> the globe, and we're proud of our flexible and remote-first work culture.
+            </br> We build open source tools and commercial services used by thousands of</br> developers in production. We're very proud not only of the products</br> we make, but of the community and partnerships we've cultivated with other developers and companies.</br> Here are some of the companies we've worked with</p>
+        </div>
+        <div class="fixed-bottom"><p class="float-left ">This website uses cookies to ensure you get the best experience on our website. Learn more</p>
+            <button type="button" class="float-right btn btn-info ">GO it</button>
+        </div>
+</div>
+</html>
+<script>
+     window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        
+        
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("scrool").style.marginTop = "0px";
+}
+else{
+    document.getElementById("scrool").style.marginTop = "30px";
+}
+}
+</script>
