@@ -1,0 +1,174 @@
+.text-sm-left a{
+    color:black
+    
+}
+.text-sm-left a:hover{ 
+    text-decoration-line: none;
+    color: red;
+}
+.divider {
+  width: 1px;
+  margin: 13px 0;
+  background: white;
+  
+  }
+
+#background{
+
+  background-image: url("bg-gallary.svg");
+background-color: #222736;
+height: 500px;
+width: 100%;
+position: relative;
+
+}
+.centered {
+position: absolute;
+top: 250px;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+display: none;
+
+
+}  
+#btn1{
+  border: 1px solid red;
+  color:   red;
+  font-size: 12px;
+  width: 180px;
+  height: 40px;;
+}
+
+#btn1:hover {
+background-color:  #A83636;
+color: white;
+
+}
+
+#background2{
+
+background-image: url("bg-gallery-2.png");
+background-color: #E04E4B;
+height: 250px;
+width: 100%;
+
+}
+#background3{
+
+background-image: url("bg-gallary.svg");
+z-index: -1;
+opacity: 0.1;
+
+height: 300px;
+width: 100%;
+position: absolute
+
+
+}
+#back3{
+  position: relative;
+  z-index: 1;
+  
+}
+.dropdown-item:hover{
+  background-color: #A83636;
+  color: white;
+  width:150px;
+
+
+}
+.dropdown-menu{
+  background: none;
+  color: white;
+  border-top:1px solid white;
+  border-left: 1px solid white;
+  width: 150px;;
+  height: auto;
+  
+  
+}
+.dropdown:hover>.dropdown-menu{
+display: block;
+color: #A83636;
+}  
+
+.dropdown-toggle::after  {
+  display: none; 
+} 
+.nav-item a:hover{
+  color:#A83636;
+}
+.nav-item a{
+  color: rgb(171, 174, 182);
+}
+#grays li{
+  filter: grayscale(100%);
+}
+#grays li:hover{
+  filter: grayscale(0%);
+}
+#change{
+  background-color: #2B2E39;
+  font-weight: bold;
+}
+
+.display{
+  display: none;
+}
+
+
+.display1{
+  display: block;
+}
+.show1{
+  display: none;
+  margin-top: 0;
+
+}
+.animate{
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #294466;
+  position: absolute;
+  top: 100px;
+left: 50%;
+  background-color: #294466;
+}
+.anim2{
+top: 500px;
+left: 500px;
+}
+.anim{
+  width: 5px;
+  height: 5px;
+}
+.ani4{
+  top: 200px;
+left: 100px;
+}
+.anim3{
+  left:30px;
+  top: 150px;
+text-align: end;
+}
+#content{
+margin-top: 50px;
+  background-color: white;
+  width: 260px;
+  height: 310px;;
+  display: none;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+  
+  position: absolute;
+
+  
+}
+.marr{
+  margin-right: 300px;
+}
+
+
+
+
